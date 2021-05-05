@@ -29,3 +29,13 @@ footer {
     margin-right: auto;
     width: 50%;
   }
+
+  #bartcaption {
+      font-size: large;
+      color: yellow;
+      font-weight: bolder;
+  }
+
+  *{
+      font-family: 'Courier New', Courier, monospace;
+  }
