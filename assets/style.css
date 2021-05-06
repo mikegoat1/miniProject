@@ -1,3 +1,9 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14pt
+}
+
+
 header {
     color: yellow;
     background-color: black;
@@ -14,13 +20,16 @@ section {
     background-color: grey;
 }
 
-#header {
-    position: fixed;
-    
-}
+.navbar {
+    overflow: hidden;
+    position: fixed; 
+    top: 0;
+    width: 100%; 
+  }
 
 footer {
     text-align: center;
+    
 }
 
 .center {
@@ -28,6 +37,7 @@ footer {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    margin-top: 80px;
   }
 
   #bartcaption {
@@ -36,6 +46,5 @@ footer {
       font-weight: bolder;
   }
 
-  *{
-      font-family: 'Courier New', Courier, monospace;
-  }
+  
+
